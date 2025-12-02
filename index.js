@@ -90,3 +90,12 @@ for (let ovejas = 0; ovejas < 50; ovejas++) {
         console.log("Cantidad de ovejas", ovejas)
     }
 }
+
+// Concatenar strings
+const userName = "Pedro Ezequiel"
+
+// const greeting = "Hola " + userName + ", bienvenido!"
+// const greeting = "Hola ".concat(userName).concat(", bienvenido!")
+const greeting = `Hola ${userName}, bienvenido!`
+
+console.log(greeting)
